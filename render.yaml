@@ -11,7 +11,7 @@ services:
       - key: DATABASE_URL
         fromDatabase:
           name: dpg-civjs7h5rnuqald34c10-a 
-          property: postgresql://onboarded_2uen_user:QsZIVGOuweXD0d0rPbI9rd7FkosqEsCW@dpg-civjs7h5rnuqald34c10-a/onboarded_2uen
+          property: connectionString
       # pick the region closest to your database
       # For example, us-west-2 for the Oregon region
       - key: AWS_REGION
